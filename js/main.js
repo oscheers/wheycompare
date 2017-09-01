@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2015, Codrops
  * http://www.codrops.com
  */
@@ -21,7 +21,7 @@
 		this.compareCtrl = this.el.querySelector('.action--compare');
 		this.compareWrapper = document.querySelector('.compare'),
 		this.closeCompareCtrl = this.compareWrapper.querySelector('.action--close')
-		
+
 		this.itemsAllowed = 3;
 		this.totalItems = 0;
 		this.items = [];
@@ -67,14 +67,14 @@
 		var preview = document.createElement('div');
 		preview.className = 'product-icon';
 		preview.setAttribute('data-idx', items.indexOf(item));
-		
+
 		var removeCtrl = document.createElement('button');
 		removeCtrl.className = 'action action--remove';
 		removeCtrl.innerHTML = '<i class="fa fa-remove"></i><span class="action__text action__text--invisible">Remove product</span>';
 		removeCtrl.addEventListener('click', function() {
 			self.remove(item);
 		});
-		
+
 		var productImageEl = item.querySelector('img.product__image').cloneNode(true);
 
 		preview.appendChild(productImageEl);
