@@ -52,15 +52,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-a {
-	text-decoration: none;
-	color: #f0f0f0;
-	outline: none;
-}
 
-a:hover {
-	color: #516977;
-}
 
 /* Blueprint header */
 .bp-header {
