@@ -25,11 +25,72 @@ width: auto;
 height: auto;
 }
 
-ul.menu li {
-	display: inline;
-	float: right;
-	padding: 0 1em 0 1em;
+.navbar-default {
+    background: #ffffff;
+    border: none;
+    margin: 0 !important;
+    padding: 34px 0;
 }
+
+.navbar-default .navbar-brand {
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.navbar-default .navbar-brand strong {
+  color: #3c93ef;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #777;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.navbar-default .navbar-nav > li a:hover {
+    color: #3c93ef !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #3c93ef;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav li a:hover,
+ .navbar-default .navbar-nav .active > a {
+    color: #3c93ef;
+  }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #3c93ef;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+     border: none;
+     padding-top: 10px;
+  }
+
+.navbar-default .navbar-toggle .icon-bar {
+    border-color: transparent;
+  }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+
 
 /*intro section */
 .intro-info {
@@ -362,7 +423,7 @@ ul.menu li {
 	top: 0;
 	left: 0;
 	background: #212227;
-	z-index: 1000;
+	z-index: 1001;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;

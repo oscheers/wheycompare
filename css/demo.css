@@ -21,7 +21,7 @@
 
 body,
 html {
-	font-size: 100%;
+	font-size: 100% !important;
 	margin: 0;
 	padding: 0;
 }
@@ -47,7 +47,7 @@ html {
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #595a5f;
-	background: #efefef;
+	background: #efefef !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
