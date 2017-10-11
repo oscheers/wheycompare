@@ -280,6 +280,39 @@ height: auto;
 	border-radius: 5px;
 }
 
+.offer__image_shake {
+	display: block;
+	margin: 0 auto 1em auto;
+	max-width: 100%;
+	height: 100px;
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	background-image: url('shakes1.jpg');
+	border-radius: 5px;
+}
+
+.offer__image_shake2 {
+	display: block;
+	margin: 0 auto 1em auto;
+	max-width: 100%;
+	height: 100px;
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	background-image: url('shakes2.jpg');
+	border-radius: 5px;
+}
+
+.offer__image_nutrition {
+	display: block;
+	margin: 0 auto 1em auto;
+	max-width: 100%;
+	height: 100px;
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	background-image: url('nutrition.jpg');
+	border-radius: 5px;
+}
+
 .section-heading {
 	font-size: 1.5em;
 	text-align: center;
@@ -297,7 +330,25 @@ margin: 0em auto 1.5em auto;
 	font-size: 1.2em;
 	text-transform: uppercase;
 	color:#fff;
-	line-height: 100px;
+	background-color: #3c93ef;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.offer_info {
+	font-size: 0.9em;
+	margin: 1em auto 0 auto;
+	display: block;
+	width:90%;
+	text-align: center;
+}
+
+.offer_code {
+	font-size: 1.2em;
+	margin: 0 auto 0 auto;
+	display: block;
+	width:90%;
+	text-align: center;
+	color: #3c93ef;
 }
 
 /*home sales content */
@@ -495,7 +546,7 @@ color: #333;
 	border-radius: 2px;
 	-webkit-transition: background 0.2s;
 	transition: background 0.2s;
-	margin-top: 2em;
+	margin-top: 1.5em;
 }
 
 .action--button:hover {
